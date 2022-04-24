@@ -1,0 +1,65 @@
+.register{
+    width: 400px;
+    background: darkslategray;
+    border : 1px solid white;
+    box-shadow: 0 2px 4px rgb(0 0 0/10%),0 8px 16px rgb(0 0 0/10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.register > h1{
+    color: white;
+}
+
+.register > input {
+    background: lightcyan;
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+    color:cadetblue;
+    margin:0.5rem 0;
+    padding: 00.5rem 0;
+    width:100%;
+    font-size: 1rem;
+
+
+}
+
+.register> .button{
+background-color: darkolivegreen;
+border:2px solid darkolivegreen;
+color: white;
+font-weight: bold;
+font-size: 1.25rem;
+padding: 00.5rem;
+margin: 0.5rem;
+border-radius: 8px;
+outline: none;
+cursor: pointer;
+}
+
+.register > .or{
+    color: white ;
+}
+
+.register > .register1{background-color: darkolivegreen;
+    border:2px solid darkolivegreen;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 00.5rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 8px;
+    padding: 8px;
+    font-size: large;
+}

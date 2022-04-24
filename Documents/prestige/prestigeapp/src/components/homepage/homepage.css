@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    border-radius:20px;
+    background: white;
+    position: relative;
+}
+.homepage > .button{
+    background: lightblue;
+    border: 1px solid lightblue;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    outline:none;
+    cursor: pointer;
+
+}
+.navigation{
+    background-color: rgba(7, 56, 26, 0.719);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+ul{ display: flex;
+    flex-direction: row;
+    padding: 14px 450px;
+    font-size: medium;
+    
+list-style: none;
+    /* text-decoration-color: white; */
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 61px;
+}
+.li{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.li :hover{
+    color: orangered;
+    font-size: larger;
+
+}
+/* navigation hover */
+/* .li :hover{
+    color: orangered;
+    font-size: large;
+} */
+
+section{display: flex;
+    flex-flow: row;
+    justify-content: center;
+    /* border: 3px solid; */
+    /* border-color: red; */
+}
+
+
+section img {border: 2px solid black;
+    width:250px;
+}
+
+ .div-of-gallery{display: flex;
+     justify-content: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    color: black; 
+    margin: 14px;
+
+
+}
+
+.ulOfButtons{
+text-decoration: none;
+list-style: none;
+text-decoration: none;
+
+}
+ul .button {
+    text-decoration: none;
+    color: white;
+    
+}
+
+div ul li .Link{
+    border: 2px solid white;
+    border-radius: 1px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(7, 56, 26, 0.719);
+}
+
+
+
+.Linkofhome{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.Link{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 8px;
+    padding: 8px;
+    font-size: large;
+}
+
+div ul li .Link :hover{
+    color: orangered;
+    font-size: larger;
+}

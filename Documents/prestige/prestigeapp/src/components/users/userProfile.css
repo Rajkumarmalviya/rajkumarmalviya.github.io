@@ -1,0 +1,32 @@
+.navigation{
+    background-color: rgba(7, 56, 26, 0.719);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+ul{ display: flex;
+    flex-direction: row;
+    padding: 14px 450px;
+    font-size: medium;
+    
+list-style: none;
+    /* text-decoration-color: white; */
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 61px;
+}
+.li{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.li :hover{
+    color: orangered;
+    font-size: larger;
+
+}
